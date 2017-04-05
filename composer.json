@@ -1,0 +1,25 @@
+{
+  "name": "gephart/language",
+  "type": "library",
+  "description": "Gephart Language Component",
+  "keywords": [],
+  "homepage": "https://github.com/gephart/language",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Katuščák",
+      "email": "michal@katuscak.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "gephart/configuration": "0.2.*",
+    "gephart/dependency-injection": "0.2.*"
+  },
+  "autoload": {
+    "psr-4": { "Gephart\\Language\\": "src/" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
