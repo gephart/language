@@ -37,7 +37,6 @@ $language = $container->get(\Gephart\Language\Language::class);
 
 echo $language->get(); // cs (fallback)
 
-$language = new \Gephart\Language\Language();
 $language->set("en");
 echo $language->get(); // en
 ```
