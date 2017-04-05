@@ -1,7 +1,7 @@
 Gephart Language
 ===
 
-[![Build Status](https://travis-ci.org/gephart/sessions.svg?branch=master)](https://travis-ci.org/gephart/sessions)
+[![Build Status](https://travis-ci.org/gephart/language.svg?branch=master)](https://travis-ci.org/gephart/language)
 
 Dependencies
 ---
