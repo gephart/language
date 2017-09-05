@@ -5,7 +5,7 @@ Gephart Language
 
 Dependencies
 ---
- - PHP >= 7.0
+ - PHP >= 7.1
  - gephart/configuration = 0.2.*
  - gephart/dependency-injection = 0.2.*
 
