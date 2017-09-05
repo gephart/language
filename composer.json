@@ -13,8 +13,8 @@
   ],
   "require": {
     "php": ">=7.1",
-    "gephart/configuration": "0.2.*",
-    "gephart/dependency-injection": "0.2.*"
+    "gephart/configuration": "0.4.*",
+    "gephart/dependency-injection": "0.4.*"
   },
   "autoload": {
     "psr-4": { "Gephart\\Language\\": "src/" },
