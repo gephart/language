@@ -42,5 +42,4 @@ final class Language
     {
         $this->language = $language;
     }
-
 }
