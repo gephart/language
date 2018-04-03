@@ -20,11 +20,11 @@ final class Language
     private $language;
 
     /**
-     * @param LanguageConfiguration $language_configuration
+     * @param LanguageConfiguration $configuration
      */
-    public function __construct(LanguageConfiguration $language_configuration)
+    public function __construct(LanguageConfiguration $configuration)
     {
-        $this->language = $language_configuration->get("fallback");
+        $this->language = $configuration->get("fallback");
     }
 
     /**
